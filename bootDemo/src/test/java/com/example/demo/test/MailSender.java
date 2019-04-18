@@ -1,0 +1,8 @@
+package com.example.demo.test;
+
+public class MailSender implements Sender {
+    @Override
+    public void send() {
+        System.out.println("mail");
+    }
+}
